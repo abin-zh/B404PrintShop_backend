@@ -1,0 +1,23 @@
+spring:
+  servlet:
+    multipart:
+        max-file-size: 10MB
+        max-request-size: 10MB
+  mail:
+    host: smtp.qq.com # 网站发送邮件邮箱服务 host
+    port: 465
+    username: 
+    password: 
+    protocol: smtps
+  application:
+    name: mailsend
+server:
+  port: 8080
+cups:
+  host: 
+  port: 
+  username: 
+  password: 
+  printer: 
+upload:
+  path: /upload
